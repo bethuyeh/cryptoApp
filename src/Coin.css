@@ -6,7 +6,7 @@
 .coin-row{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-items: start;
     align-items: center;
     height: 80px;
     border-bottom: 1px solid #787878;
@@ -107,19 +107,18 @@
 
     .coin-row{
         margin-bottom: 90px;
-        border-bottom: none;
+        /* border-bottom: none; */
     }
 
 }
 @media screen and (max-width: 630px){
     .coin-data{
         display: block;
-        border-bottom: 0.5px solid #78787823;
         
     }
 
-    .coin-row{
-        margin-bottom: 90px;
+    .coin-data{
+        margin-bottom:70px;
     }
 
 }
